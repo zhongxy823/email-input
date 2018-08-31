@@ -1,0 +1,29 @@
+/* element-ui */
+.el-button--primary{
+  background-color: #0F9EE9;
+  border-color: #0F9EE9;
+}
+.el-button--primary:focus,
+.el-button--primary:hover{
+  background-color: #2AB6FF;
+  border-color: #2AB6FF;
+}
+.el-button--text{color: #0F9EE9;}
+.el-button--text:focus,
+.el-button--text:hover{
+  color: #2AB6FF;
+}
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner{ /* 多选框选中颜色 */
+  background-color: #0F9EE9;
+  border-color: #0F9EE9;
+}
+.el-checkbox__input.is-checked+.el-checkbox__label{color: #0F9EE9;} /* 多选框选中文字颜色 */
+.el-button.is-disabled,
+.el-button.is-disabled:focus,
+.el-button.is-disabled:hover,
+.el-input.is-disabled .el-input__inner{cursor: default;} /* 禁用手型 */
+.el-table__header th{ /* 表格头颜色 */
+  height: 50px;
+  background: #FAFAFA;
+}
