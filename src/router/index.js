@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 import ErrorPage from '@/pages/error'
+import email from '@/pages/email'
 
 Vue.use(Router)
 
@@ -9,8 +9,8 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'email',
+      component: email
     },
     {
       path: '/404',
@@ -18,6 +18,15 @@ const router = new Router({
       component: ErrorPage,
       meta: {
         title: '404'
+      }
+    },
+    // email
+    {
+      path: '/email',
+      name: 'email',
+      component: email,
+      meta: {
+        title: 'email'
       }
     }
   ]
